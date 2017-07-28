@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<script>
+			function a(){
+				document.getElementById("button1").style.display="none";
+				document.getElementById("button2").style.display="block";
+				document.getElementById("button3").style.display="none";
+				document.getElementById('name').style.color='red';
+				}
+			function b(){
+				document.getElementById("button2").style.display="none";
+				document.getElementById("button1").style.display="none";
+				document.getElementById("button3").style.display="block";
+				document.getElementById('name').style.color='blue';
+				}	
+				function c(){
+				document.getElementById("button1").style.display="block";
+				document.getElementById("button2").style.display="none";
+				document.getElementById("button3").style.display="none";
+				document.getElementById('name').style.color='purple';
+				}
+		</script>
+		</head>
+		<body>
+			<p id="name">hello sandeep kumar</p>
+			<button type="button" id="button1"
+			  onclick="a();">red</button>
+			<button type="button" id="button2"
+			  onclick="b();">blue</button>
+			  <button type="button" id='button3'
+			   onclick="c();">purple</button>   
+			</body>
+</html>

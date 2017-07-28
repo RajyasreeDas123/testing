@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+Name: <input type="text" id="myText" value="date">
+
+<p>Click the button to see date</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+var d= Date();
+    document.getElementById("myText").value = d;
+}
+</script>
+
+</body>
+</html>
